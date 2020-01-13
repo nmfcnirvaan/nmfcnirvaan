@@ -1,0 +1,71 @@
+body
+{
+/*background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);*/
+	background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.card-body
+{
+	background-color: rgba(245, 245, 245, 0.4);
+}
+
+.mytext
+{
+	overflow-y: scroll;
+	height: 100px;
+}
+
+.headreg
+{
+	font-family: 'Audiowide', cursive;
+	color: #FFFFFF;
+	font-size: 3em;
+}
+
+footer a
+{
+	color: #FFFFFF;
+}
+
+.footer-copyright
+{
+	font-weight: bold;
+}
+
+footer a:hover
+{
+	color: #000000;
+}
+.myfont
+{
+	font-family: 'Cuprum', sans-serif;
+	font-weight: bold;
+	font-size: 120%;
+	color: #FFF0F1;
+
+}
+
+.myfont2
+{
+	font-family: 'Cuprum', sans-serif;
+	/*font-weight: bold;*/
+	color: #FFF0F1;
+}
+.regcont
+{
+	margin-left: 20%
+}
+@media only screen and (max-width: 991px)
+{
+	.regcont
+	{
+		margin-left: 0;
+	}
+	.card-body
+	{
+		width: 100% !important;
+	}
+}

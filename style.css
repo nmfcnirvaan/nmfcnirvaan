@@ -1,0 +1,279 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+html{
+	scroll-behavior:smooth;
+}
+body
+{
+background: linear-gradient(186deg, #c12bd9, #0d36dd, #e81d1d);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 15s ease infinite;
+-moz-animation: AnimationName 15s ease infinite;
+animation: AnimationName 15s ease infinite;
+/*background: linear-gradient(186deg, #c12bd9, #0d89dd, #c83e3e, #c347b3);
+background-size: 800% 800%;
+
+-webkit-animation: AnimationName 15s ease infinite;
+-moz-animation: AnimationName 15s ease infinite;
+animation: AnimationName 15s ease infinite;*/
+	/*background: linear-gradient(186deg, #c12bd9, #0d89dd, #f28e8e, #c347b3, #1c99ee, #cd3cee);
+background-size: 1200% 1200%;
+
+-webkit-animation: AnimationName 15s ease infinite;
+-moz-animation: AnimationName 15s ease infinite;
+animation: AnimationName 15s ease infinite;*/
+
+}
+/*@-webkit-keyframes AnimationName {
+    0%{background-position:59% 0%}
+    50%{background-position:42% 100%}
+    100%{background-position:59% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:59% 0%}
+    50%{background-position:42% 100%}
+    100%{background-position:59% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:59% 0%}
+    50%{background-position:42% 100%}
+    100%{background-position:59% 0%}
+}*/
+@-webkit-keyframes AnimationName {
+    0%{background-position:59% 0%}
+    50%{background-position:42% 100%}
+    100%{background-position:59% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:59% 0%}
+    50%{background-position:42% 100%}
+    100%{background-position:59% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:59% 0%}
+    50%{background-position:42% 100%}
+    100%{background-position:59% 0%}
+}
+/*.page1
+{
+	background-image: url(../images/pagge.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;}*/
+
+.mlogo
+{
+	display:block;
+		margin-left:auto;
+		margin-right:auto;
+		width:40%;
+		height:25%;
+		padding:20px;
+}
+.about
+{
+	position:relative;
+	height:100%;
+	width:100%;	
+	display:block;
+	
+}
+.about .nmcont
+{
+	float:left;
+	height:100%;
+	width:100%;	
+	position:relative;
+	padding:30px;
+	/*background-image: linear-gradient(to bottom, #8e44ad 0%, #3498db 100%);*/
+	/*background: #200122;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to top, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to top, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.about .nmcont h2
+{
+	color:#fff;
+	font-size:3em;
+	font-family: 'Baloo Bhai', cursive;
+	
+}
+.about .nmcont p
+{
+	color:#fff;
+	text-align: justify;  
+	text-align-last: left;
+	padding:15px;
+	font-size:1.2em;
+	font-family: 'Baloo Bhai', cursive;
+}
+.about .nmcont:nth-child(2) h2{
+	color:#000;
+	font-size:3em;
+	text-align:center;
+}
+.about .nmcont:nth-child(2) h3{
+	color:#000;
+	font-size:2em;
+	text-align:center;
+}
+.nirvan
+{
+	padding:30px;
+	height:100%;
+	width:100%;
+	float:right; 
+	/*background-image: linear-gradient(to top, #8e44ad 0%, #3498db 100%);*/
+	/*background: #200122;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to top, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to top, #6f0000, #200122);*/
+}
+.nirvan h2{
+	color:#fff;
+	font-size:3em;
+	font-family: 'Baloo Bhai', cursive;
+}
+.nirvan p{
+	color:#fff;
+	text-align: justify;  
+	text-align-last: left;
+	padding:15px;
+	font-size:1.2em;
+	font-family: 'Baloo Bhai', cursive;
+}
+
+.type
+{
+	text-decoration: none;
+	text-align:center;
+	font-size:1.5em;
+	color:white;
+	padding: 10px;
+	width:100%;
+	font-family: 'Baloo Bhai', cursive;
+}
+.card{
+	background-color: rgba(245, 245, 245, 0.2);
+}
+.mycol
+{
+	background-color: rgba(245, 245, 245, 0.07) !important;
+	font-family: 'Baloo Bhai', cursive !important;
+	font-size: 1.2em;
+	padding: inherit;
+}
+.mycont{
+	margin-top: 10%;
+}
+
+.myicons
+{
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+}
+.myicons a
+{
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	
+}
+.myicons a:hover
+{
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: none;
+	
+}
+.mylinkfoot
+{
+}
+.pad{
+	font-style: bold;
+	
+}
+.copy
+{
+	font-family: 'Baloo Bhai', cursive;
+}
+.title
+{
+	color: #fff;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 2em;
+}
+
+@media only screen and (max-width: 991px)
+{
+	.mlogo{
+		width: 100%;
+		height: 30%;
+	}
+	.bapros{
+		width: 17%;
+    margin-bottom: -60px;
+    margin-top: 12px;
+	}
+	.nmcont{
+		font-size: 0.8em;
+	}
+	.nirvan
+	{
+		font-size: 0.8em;
+		
+	}
+	.myicons
+	{
+		font-size: 35px;
+	}
+	.type{
+		font-size: 1.2em;
+	}
+	.sect{
+		font-size:2em;
+	}
+	.title
+	{
+		font-size: 1.6em;
+		text-align: center;
+	}
+}
+footer
+{
+	color: #fff;
+	font-family: 'Baloo Bhai', cursive;
+}
+footer a
+{
+	color: #fff;
+}
+.mycard
+{
+	background-color: rgba(245, 245, 245, 0.1) !important;
+}
+.regcomp
+{
+	margin-top: 8%;
+	color: #fff;
+	font-family: 'Baloo Bhai', cursive;
+	padding: 7% 7%;
+}
+.regcomp h2
+{
+	font-size:3em;
+}
+.regcomp p
+{
+	margin-top: 2%;
+}
+.localtoglobal
+{
+	font-family: 'Baloo Bhai', cursive;
+}
+.bapros
+{
+	width: 17%;
+    margin-bottom: -60px;
+    margin-top: 12px;
+}
